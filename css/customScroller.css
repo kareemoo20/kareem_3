@@ -1,0 +1,46 @@
+.customScrollerContainer {
+}
+.customScrollerContent {
+}
+.divVScrollerBar {
+	width:0;
+}
+.divOScrollerBar {
+	height:24px;
+	background:url(images/scroll-bar-bg.gif) no-repeat 0 0;
+}
+.divVScrollerBarTrace, .divOScrollerBarTrace {
+	background:none;
+	line-height:0;
+	font-size:0;
+}
+.divOScrollerBarCursor {
+	height:24px;
+	cursor:pointer;
+}
+.divOScrollerBarCursor-Right {
+	float:right;
+	display:inline;
+	height:24px;
+	width:30px;
+	background:url(images/scroller-btn-right.png) no-repeat right 0;
+	cursor:pointer;
+}
+.divOScrollerBarCursor span {
+	background:url(images/scroller-btn.png) no-repeat 0 0;
+	float:left;
+	display:inline;
+	height:24px;
+	width:221px;
+	line-height:0;
+	font-size:0;
+}
+.divOScrollerBarCursor strong {
+	position:absolute;
+	top:5px;
+	left:48%;
+	width:10px;
+	height:12px;
+	background:url(images/scroll-btn-lines.gif) no-repeat 0 0;
+	z-index:20;
+}

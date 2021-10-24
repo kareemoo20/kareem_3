@@ -1,0 +1,34 @@
+label.radio span.holder {
+	height:29px;
+	background:url(images/checkboxes.gif) 0 0 no-repeat;
+}
+label.checked span.holder, label.checked span.holder, label.checked:hover span.holder, label.checked:hover span.holder {
+	top:-15px !important;
+}
+label.list {
+	float:left;
+	clear:left;
+	margin:0 0 5px 0;
+}
+label.inline {
+	float:left;
+	margin:0 5px 0 0;
+}
+input.hiddenCheckbox {
+	position:absolute;
+	left:-10000px;
+}
+label.prettyCheckbox span.holderWrap {
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:2px;
+	margin-right:5px;
+	overflow:hidden;
+}
+label.prettyCheckbox span.holder {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}

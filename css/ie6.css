@@ -1,0 +1,4 @@
+.gallery-content ul li .image-hover {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/hover.png', sizingMethod='scale');
+}

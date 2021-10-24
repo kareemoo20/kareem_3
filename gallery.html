@@ -1,0 +1,587 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>gallery</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/style1.css"  media="all" />
+<link rel="stylesheet" href="css/prettyCheckboxes.css"  media="all" />
+<link rel="stylesheet" href="css/customScroller.css"  media="all" />
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+<script src="js/prettyCheckboxes.js" type="text/javascript"></script>
+<script src="js/jquery.customScroller-1.2.js" type="text/javascript"></script>
+<script src="js/js-func.js" type="text/javascript"></script>
+
+<!--[if IE 6]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+<script src="js/png-fix.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+    <a class="navbar-brand pl-3" href="#" >kareem</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav pr-3 ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Untitled-1.html">HOME</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">pest places</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">Log Out</a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- START PAGE SOURCE -->
+<div class="shell">
+  <div class="gallery">
+    <div class="gallery-t">
+      <div class="gallery-head">
+        <div class="category"> <a href="#">Category</a>
+          <div class="dd-holder">
+            <div class="dd-t"></div>
+            <div class="dd">
+              <div class="dd-inner">
+                <ul>
+                  <li><a href="#">Category 1</a></li>
+                  <li><a href="#">Category 2</a></li>
+                  <li><a href="#">Category 3</a></li>
+                  <li><a href="#">Category 4</a></li>
+                  <li><a href="#">Category 5</a></li>
+                </ul>
+              </div>
+              <div class="cl">&nbsp;</div>
+            </div>
+            <div class="dd-b"></div>
+          </div>
+        </div>
+        <div class="search">
+          <form action="#" method="post">
+            <div class="field">
+              <input type="text" class="blink" value="Search" />
+            </div>
+            <input type="submit" class="search-btn notext" />
+          </form>
+        </div>
+        <div class="sort-by">
+          <p>Sort by:</p>
+          <div class="custom-checkboxes">
+            <form action="#" method="post">
+              <input type="radio" name="sort-options" id="name" class="custom-checkbox" />
+              <label for="name">Name</label>
+              <input type="radio" name="sort-options" id="date" class="custom-checkbox" />
+              <label for="date">Date</label>
+              <input type="radio" name="sort-options" id="size" class="custom-checkbox" />
+              <label for="size">Size</label>
+            </form>
+            <div class="cl">&nbsp;</div>
+          </div>
+          <div class="cl">&nbsp;</div>
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div class="gallery-holder">
+        <div class="gallery-content">
+          <ul>
+            <li><a href="#"><img src="images/gallery-image1.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image2.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image3.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image4.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image5.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image6.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image7.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image8.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image10.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image11.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image12.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image13.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image14.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image15.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image16.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image17.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image18.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image20.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image21.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image22.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image23.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image24.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image1.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image2.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image3.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image4.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image5.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image6.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image7.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image8.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image10.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image11.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image12.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image1.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image2.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image3.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image4.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image5.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image6.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image7.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image8.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image10.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image11.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image12.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image13.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image14.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image15.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image16.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image17.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image18.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image20.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image21.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image22.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image23.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image24.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image11.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image12.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image13.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image14.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image15.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image16.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image17.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image18.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image19.png" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image20.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image21.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image22.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image23.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image24.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image23.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+            <li><a href="#"><img src="images/gallery-image24.jpg" alt="" /></a>
+              <div class="image-hover">
+                <h5>Lorem ipsum sit amet dolor.</h5>
+                <h6>Category Name</h6>
+                <a href="#" class="preview">Preview image</a> </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery-b">&nbsp;</div>
+</div>
+<div class="footer">
+  <p class="lf">Copyright &copy; 2021 - All Rights Reserved</p>
+  <p class="rf">Design by <a href="http://www.websitecsstemplates.com/" target="_blank">kareem taha</a></p>
+  <div style="clear:both;"></div>
+</div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
